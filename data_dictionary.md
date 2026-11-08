@@ -16,7 +16,7 @@
 | `started_before_fy2020` | true/false | True if the award began before fiscal 2020 but was still active during the study window. |
 | `awarding_branch` | text | The DoD component that made the award, such as Department of the Navy. |
 | `contract_type` | text | Award type: definitive contract, delivery order, purchase order, or BPA call. |
-| `description` | text | The government's short description of the work. Missing for 82 awards. |
+| `description` | text | The government's short description of the work. Missing for 83 rows in the CSV. |
 | `naics_code` | text | Industry code (North American Industry Classification System). Missing for 28 awards. |
 | `naics_description` | text | Name of the NAICS code. |
 | `psc_code` | text | Product or Service Code: what was bought. |
