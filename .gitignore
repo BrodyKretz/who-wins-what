@@ -1,0 +1,6 @@
+data/raw/
+data/awards_clean.csv
+.ipynb_checkpoints/
+.DS_Store
+.claude/
+CLAUDE.md
