@@ -70,6 +70,6 @@ The analysis in `04_analyze.ipynb` uses the yearly totals rather than the award 
 **Cautions.**
 - The awarding branch isn't always the branch that uses the product. The Navy runs the F-35 contracts for all services, including Air Force aircraft, so Lockheed Martin's 49% Navy share overstates its dependence on the Navy.
 - PSC codes are coarse. Anduril's largest code is "hardware, commercial", which says little about what it sold.
-- Shield AI ($40 million) and Scale AI ($120 million) have few awards, so one contract moves their shares a lot.
+- Shield AI ($40 million) and Scale AI ($124 million) have few awards, so one contract moves their shares a lot.
 - Fiscal 2026 is incomplete, so the last year's dollars will rise as data is published.
 - The competed versus sole source comparison from the proposal isn't done yet.
