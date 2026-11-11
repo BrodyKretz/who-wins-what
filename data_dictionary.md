@@ -22,3 +22,16 @@
 | `psc_code` | text | Product or Service Code: what was bought. |
 | `psc_description` | text | Name of the PSC code. |
 | `shared_with_other_company` | true/false | True if the same award also appears under another company in the list, as with joint ventures. |
+
+## Yearly totals
+
+`data/category_totals.csv` has one row per company, fiscal year, and category. It is the full data from `03_collect_totals.ipynb`, small enough to commit.
+
+| Field | Type | Meaning |
+|---|---|---|
+| `company` | text | Which of the nine companies the dollars are for. |
+| `fiscal_year` | integer | Federal fiscal year, October through September. |
+| `grouping` | text | `psc` for product and service codes, `branch` for awarding DoD component. The two groupings cover the same dollars, so never add them together. |
+| `code` | text | The PSC code or the component's abbreviation. Blank for some components. |
+| `name` | text | Name of the PSC or component. |
+| `amount` | number | Net dollars obligated in that fiscal year. Can be negative when money was taken back. |
